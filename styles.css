@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('images/noaa-0ETSZYPjvDo-unsplash.jpg');
+    height: 80vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+}
+
+.app-main {
+    width: 50vh;
+    margin: 100px auto;
+    background-color: rgba(240,248,255, 0.6);
+    padding: 20px;
+   
+}
+
+.app-main > * {
+    margin-bottom: 20px;
+}
+.title{
+    font-weight: bolder;
+    font-size: 21px;
+    border-bottom: 1px solid #bfbfbf;
+}
+.input-box {
+    width: 100%;
+    background-color: rgba(255,255,255,0.6);
+    outline: none;
+    color: #582233;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 20px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.input-box:focus {
+    background-color: rgba(255,255,255);
+}
+
+.weather-body {
+    display: none;
+    color: maroon;
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.6);
+    height: 40vh;
+    text-align: center;
+    
+}
+
+.location-details {
+    font-size: 20pt;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.weather-status {
+    padding: 20px;
+}
+
+.temp {
+    font-size: 50pt;
+    font-weight: 700;
+    margin: 20px 0;
+    color:#ff0000;
+
+}
+
+.weather {
+    padding:20px;
+    font-size: 17pt;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
